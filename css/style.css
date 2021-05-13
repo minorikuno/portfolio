@@ -24,6 +24,7 @@ main {
 
 a {
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 a i:hover {
@@ -37,6 +38,11 @@ h3 {
 
 .myPhoto {
   border-radius: 20px;
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 /* Grobal */
 
@@ -54,6 +60,12 @@ header {
 .navBg {
   background-color: rgb(208, 164, 176);
   box-shadow: 1px 0px 10px 2px rgb(208, 164, 176);
+}
+
+@media screen and (max-width:767px) {
+  nav ul li {
+    text-align: center;
+  } 
 }
 /************************ header end *********************/
 
@@ -184,6 +196,14 @@ header {
   top: 88%;
   left: 45%;
   right: 45%;
+  cursor: pointer;
+}
+
+#meDecouvrir {
+  background-color: rgba(255, 255, 255, 0.37);
+  text-align: center;
+  font-weight: 700;
+  line-height: 1rem;
 }
 /************************ Phone end *********************/
 /************************ About me **********************/
