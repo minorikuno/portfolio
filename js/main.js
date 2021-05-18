@@ -1,3 +1,4 @@
+// Button au milieu change la photo
 let cercle = document.getElementsByClassName('cercle');
 //  console.log(cercle[0]);
 
@@ -13,3 +14,5 @@ cercle[0].addEventListener('dblclick', ()=>{
 
 })
 
+// Affiché le heading corrésponds aux buttons
+let heading = document.getElementById('heading');
