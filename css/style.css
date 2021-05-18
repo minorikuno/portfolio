@@ -20,6 +20,7 @@ body {
 main {
   background-color: rgba(208, 164, 176, 0.4);
   font-family: 'Poppins', sans-serif;
+  padding: 10px;
 }
 
 a {
@@ -106,7 +107,7 @@ header {
   height: 650px;
   width: 70%;
   max-width: 450px;
-  min-width: 319px;
+  min-width: 300px;
   position: relative;
 }
 
@@ -181,7 +182,7 @@ header {
   
 }
 .screenTop a:hover {
-  color: rgba(62, 47, 80, 0.774);
+  color: rgba(255, 255, 255, 0.774);
 }
 
 
@@ -205,6 +206,13 @@ header {
   font-weight: 700;
   line-height: 1rem;
 }
+
+#heading {
+
+  
+}
+
+
 /************************ Phone end *********************/
 /************************ About me **********************/
 #aboutMe {
